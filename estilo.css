@@ -124,10 +124,11 @@ nav li a:hover{
 	clear:right;
 
 }
-.div3 p{
+.div3 a{
     float:left;
     margin-top: 20px;
     color:blue;
+    text-decoration: none;
 }
 .caja1{
 	width: 260px;
