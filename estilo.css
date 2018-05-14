@@ -15,18 +15,20 @@ h1{
 h2{
 	text-transform: uppercase;
 	font-size: 18px;
+	padding-bottom: 10px;
 }
 section{
 	padding-top: 60px;
 }
 /* General*/
 .container{
-	max-width: 580px;
+	max-width: 680px;
 	margin: 0 auto;
 }
 .container-largue{
 	max-width: 960px;
 	margin: 0 auto;
+	background-color: black;
 
 }
 .button{
@@ -44,16 +46,24 @@ section{
 	background-color: green;
 
 }
+.button-grey{
+    background-color: #D3D3D3;
+}
 .button:hover{
 	background-color: #6f6fec;
 }
 .button-green:hover{
 	background-color: blue;
+
 }
 /*  Header */
 header{
+   height: 250px;
    color: white;
    background-color: black;
+   background-image: url(images/bg.jpeg);
+   background-size: cover;
+   background-position: center 5px;
    text-align: center; 
    padding: 100px 0px;
 }
@@ -83,4 +93,76 @@ nav li a{
 }
 nav li a:hover{
 	opacity: 1;
+}
+.sec2{
+	text-align: center;
+	height: 750px;
+}
+.subsec2{
+	background-image: url(images/happy-people.png);
+	background-size: cover;
+	background-position: center;
+	height: 700px;
+}
+.sec3{
+	text-align: center;
+	background-color: #D3D3D3;
+	height: 200px;
+}
+.sec3 p{
+	font-size: small;
+}
+.sec4{
+	height: 200px;
+}
+.div1{
+	float:left;
+	clear:left;
+}
+.div2{
+	float:right;
+	clear:right;
+
+}
+.div3 p{
+    float:left;
+    margin-top: 20px;
+    color:blue;
+}
+.caja1{
+	width: 260px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.c1{
+	float: left;
+	clear:left;
+	padding-top: 10px;
+}
+.c1 input{
+	height: 30px;
+	width: 180px;
+	color:grey;
+}
+.c2{
+	float:right;
+	clear:right;
+	padding-left: 0px;
+	padding-top: 4px;
+}
+.c2 a{
+	height: 16px;
+	color:black;
+	border: solid black 1px;
+}
+
+.footer{
+	height: 50px;
+	background-color: black;
+	color:white;
+	padding-left: 100px;
+}
+.footer p{
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
